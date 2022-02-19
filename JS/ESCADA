@@ -4,9 +4,8 @@ let aux2;
 
 
 function Escada(n){
-let a = 0
-let b = 0
-let c
+let a
+let b 
 let Espaço = " "
 let Ponto = "*"
 let auxString = ""
