@@ -1,0 +1,35 @@
+let capturando = "";
+let aux1;
+let aux2;
+
+
+function Escada(n){
+let a = 0
+let b = 0
+let c
+let Espaço = " "
+let Ponto = "*"
+let auxString = ""
+
+ for (a=0;a<=n;a++){ 
+   if(a>0){  
+   auxString = auxString.concat(Espaço)
+   auxString = auxString.concat(Ponto)   
+   }
+   if(a == b){
+   auxString = auxString.concat("\n")
+   b=1
+   } else{
+   a--    
+   b++    
+   }
+ }
+ window.alert(auxString)
+ return(auxString)
+}
+
+
+function capturar () {
+    capturando = document.getElementById('valor').value;
+    aux1 = Escada(capturando)
+}

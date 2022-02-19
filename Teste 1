@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DESAFIO CAPGEMINI</title>
+        <script src="JS/ESCADA"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1 style="color:brown;">DESAFIO CAPGEMINI</h1>
+        <h2>Digite um numero</h2>
+        <input type="text" id=valor>
+        <input type="submit" onclick="capturar()" value="execultar">
+    </body>
+</html>
