@@ -7,8 +7,8 @@
     </head>
     <body>
         <h1 style="color:brown;">DESAFIO CAPGEMINI</h1>
-        <h2>Digite um numero</h2>
+        <h2>Digite um número</h2>
         <input type="text" id=valor>
-        <input type="submit" onclick="capturar()" value="execultar">
+        <input type="submit" onclick="capturar()" value="executar">
     </body>
 </html>
