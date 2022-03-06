@@ -1,13 +1,18 @@
+//Teste 1
+
+// Variaveis
 let arr = [1,2,3,4,5]
 
 let aux1
 let aux2
 let aux3
 
+//Conta o tamanho do vetor e calcula sua media
 aux1=arr.length
 aux2=aux1/2
 
+//Corrige caso o valor n seja exato
 aux3=aux2.toFixed()
 
-//console.log(aux3)
+//Exibe reultado 
 console.log(arr[aux3])
